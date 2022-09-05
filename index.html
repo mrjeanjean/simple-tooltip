@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tooltip demo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            /*--tooltip-color: pink;
+            --tooltip-text-color: red;
+            --tooltip-arrow-width: 8px;*/
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li data-tooltip title="Go home"><a href="#">Home</a></li>
+        <li data-tooltip title="Go page 1"><a href="#">Page 1</a></li>
+        <li data-tooltip title="Go page 2"><a href="#">Page 2</a></li>
+        <li data-tooltip title="Go page 3"><a href="#">Page 3</a></li>
+    </ul>
+</nav>
+<section>
+    <div data-tooltip title="Une info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem molestias nulla
+        reiciendis
+        tempora unde,
+        voluptatibus? Eligendi fugit iusto labore laboriosam libero nisi optio tempore! Aperiam architecto eius mollitia
+        quod sed.
+    </div>
+    <div>Distinctio excepturi fugiat fugit id magnam praesentium tenetur, vel vero! Aspernatur corporis, earum et
+        explicabo itaque molestias neque nihil nostrum repudiandae sint suscipit tempore voluptatum? Ab esse et
+        perspiciatis
+        similique.
+    </div>
+    <div>A aut cum distinctio eos fugit labore laboriosam libero magnam minima nemo, nesciunt nobis perspiciatis quasi
+        sunt vitae. Amet asperiores atque beatae eaque molestiae odio provident quos reprehenderit tenetur voluptatibus.
+    </div>
+    <div>Atque delectus dolor, eius eligendi ipsam ipsum, maxime optio possimus provident qui quibusdam quisquam
+        similique
+        soluta veritatis, vitae. Alias blanditiis doloremque minima nihil odio quos reiciendis repellendus repudiandae
+        sed
+        tenetur?
+    </div>
+    <div>Assumenda at blanditiis dolore ipsa ipsum laborum molestiae pariatur quaerat quos ratione repellendus vero,
+        voluptatibus! Architecto autem deleniti iste maiores? Debitis ipsum libero rerum sequi veniam. Ea laboriosam rem
+        vitae?
+    </div>
+    <div>Asperiores iste itaque iure maiores minus <span data-tooltip title="mon info">molestias neque soluta. Aliquam, deserunt, sequi. Autem culpa cum
+    cupiditate dignissimos eveniet explicabo in minus praesentium repudiandae sit. Corporis cupiditate libero nobis
+    placeat temporibus cupiditate dignissimos eveniet explicabo in minus praesentium repudiandae sit. Corporis cupiditate libero nobis
+    placeat temporibus. cupiditate dignissimos eveniet explicabo in minus praesentium repudiandae sit. Corporis cupiditate libero nobis
+    placeat temporibus. cupiditate dignissimos eveniet explicabo in minus praesentium repudiandae sit. Corporis cupiditate libero nobis
+    placeat temporibus. cupiditate dignissimos eveniet explicabo in minus praesentium repudiandae sit. Corporis cupiditate libero nobis
+    placeat temporibus.</span>
+    </div>
+    <div>Alias animi aspernatur at delectus dolor exercitationem maiores necessitatibus nihil nostrum officia, omnis
+        quae,
+        quidem quis repudiandae, similique veritatis voluptatibus! Assumenda eveniet porro similique vel? At harum modi
+        perspiciatis sunt.
+    </div>
+    <div>Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem!
+    </div>
+    <div>Ad culpa est ipsam laudantium modi nulla officiis saepe? Ab, accusamus, aliquam aspernatur deserunt dolorem,
+        excepturi iure mollitia odit officia porro possimus quasi qui quidem quo recusandae sint sit voluptate.
+    </div>
+    <div>Atque deserunt, dicta eaque ex laborum nam omnis reprehenderit. Esse magnam nisi quo quos ratione veritatis!
+        Asperiores deserunt eaque eius, facilis iusto labore nisi odit pariatur perspiciatis rerum sit voluptatem.
+    </div>
+    <button data-tooltip title="Click please, it's important to click please">Click</button>
+    <button data-tooltip title="Click">Click on this</button>
+    <button data-tooltip title="Short description">
+        Click on this
+    </button>
+
+    <div>Alias animi aspernatur at delectus dolor exercitationem maiores necessitatibus nihil nostrum officia, omnis
+        quae,
+        quidem quis repudiandae, similique veritatis voluptatibus! Assumenda eveniet porro similique vel? At harum modi
+        perspiciatis sunt.
+    </div>
+    <div>Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, ss s <a href="#" data-tooltip title="Click please, it's important to click please it's important to click please it's important to click please it's important to click please">consectetur</a> adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit! Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus
+        esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit!
+        Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit! Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus
+        esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit!
+        Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit! Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus
+        esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit!
+        Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit! Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus
+        esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit!
+        Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit! Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus
+        esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit!
+        Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit! Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus
+        esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit!Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus esse
+        ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit! Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus
+        esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit!Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus esse
+        ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit! Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus
+        esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit!Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus esse
+        ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit! Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus
+        esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit!Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus esse
+        ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit! Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus
+        esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit!Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus esse
+        ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit! Adipisci ea eligendi possimus quis voluptas. Animi asperiores autem doloribus dolorum ducimus
+        esse ex, magni
+        necessitatibus nemo officia optio quaerat repellendus repudiandae similique soluta? Doloribus enim numquam quo
+        sequi
+        voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus eum possimus qui
+        soluta?
+        Beatae commodi consequuntur, cumque deleniti eos excepturi explicabo iste nihil officia perspiciatis recusandae
+        repellat vel voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, doloribus veniam.
+        Animi
+        deserunt ea fugiat, ipsum neque possimus quaerat quam, quia quis, sed tempore vel. Iusto nulla officiis optio
+        reprehenderit!
+    </div>
+    <div>Ad culpa est ipsam laudantium modi nulla officiis saepe? Ab, accusamus, aliquam aspernatur deserunt dolorem,
+        excepturi iure mollitia odit officia porro possimus quasi qui quidem quo recusandae sint sit voluptate.
+    </div>
+</section>
+<script type="module" src="/main.js"></script>
+</body>
+</html>
